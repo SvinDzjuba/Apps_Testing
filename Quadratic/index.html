@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="App.js" defer></script>
+
+    <title>Корни квадратного уравнения</title>
+</head>
+
+<body>
+
+    <style>
+        main {
+            margin: 0 auto;
+            width: 40%;
+            margin-top: 50px
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            text-align: left
+        }
+
+        #calculate {
+            margin: 15px auto;
+            cursor: pointer;
+            width: 200px;
+            height: 30px;
+            text-align: center;
+            background-color: red;
+            color: #fff;
+            border-radius: 10px;
+        }
+    </style>
+
+    <main>
+        <h1>Посчитать <br> корни квадратного уравнения</h1>
+        <div>
+            <label for="input1">Первое число</label>
+            <input type="text" name="input1" id="input1" placeholder="Введите А">
+            <label for="input2">Второе число</label>
+            <input type="text" name="input2" id="input2" placeholder="Введите B">
+            <label for="input3">Третье число</label>
+            <input type="text" name="input3" id="input3" placeholder="Введите C">
+        </div>
+        <div id="calculate">Посчитать</div>
+        <hr>
+        <p id="message"></p>
+    </main>
+
+</body>
+
+</html>
